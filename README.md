@@ -28,7 +28,7 @@
 - Oracle, MySQL
 
 **Infra & Tools**
-- AWS, Docker, Git/GitHub
+- AWS, Git/GitHub
 - Socket.io, PortOne(결제), Kakao Maps API, RAWG Games API
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-000?logo=springboot)
@@ -36,7 +36,6 @@
 ![Node.js](https://img.shields.io/badge/Node.js-000?logo=node.js)
 ![MySQL](https://img.shields.io/badge/MySQL-000?logo=mysql)
 ![Oracle](https://img.shields.io/badge/Oracle-000?logo=oracle)
-![Docker](https://img.shields.io/badge/Docker-000?logo=docker)
 ![AWS](https://img.shields.io/badge/AWS-000?logo=amazonaws)
 
 ---
