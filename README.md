@@ -1,7 +1,7 @@
 # 김성민 (Kimseongmin) 👋  
 **Full-stack Developer** | 사용자 흐름 중심의 기능 구현 + DB 설계/연동 + 배포/운영까지 한 번에 만드는 걸 좋아합니다.
 
-- ✉️ Email: your@email.com
+- ✉️ Email: sungmin3790@gmail.com
 - 📝 Blog/Notion: https://your-link
 - 📄 Resume: https://your-link
 - 🌱 관심: 서비스 아키텍처 / 성능 개선 / 협업을 위한 문서화
