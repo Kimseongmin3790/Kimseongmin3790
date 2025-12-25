@@ -1,8 +1,3 @@
-<!-- =========================
-  Profile README (Kimseongmin3790)
-  사용법: 이 파일을 Kimseongmin3790/README.md에 그대로 붙여넣기
-========================= -->
-
 # 김성민 (Kimseongmin) 👋  
 **Full-stack Developer** | 사용자 흐름 중심의 기능 구현 + DB 설계/연동 + 배포/운영까지 한 번에 만드는 걸 좋아합니다.
 
@@ -36,7 +31,6 @@
 - AWS, Docker, Git/GitHub
 - Socket.io, PortOne(결제), Kakao Maps API, RAWG Games API
 
-> 배지는 취향대로 수정/삭제해도 돼요  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-000?logo=springboot)
 ![React](https://img.shields.io/badge/React-000?logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-000?logo=node.js)
