@@ -61,7 +61,7 @@
   - Oracle, PortOne(결제), Kakao Maps API
 
 - **Links**
-  - Repo: https://github.com/your-org/agricola
+  - Repo: https://github.com/Kimseongmin3790/Team2_SpringProject.git
   - Demo/Video: https://your-link
   - PPT: https://your-link
 
@@ -89,7 +89,7 @@
   - RAWG Games API
 
 - **Links**
-  - Repo: https://github.com/Kimseongmin3790/gclip  <!-- 레포명 맞게 수정 -->
+  - Repo: https://github.com/Kimseongmin3790/React_Project
   - Demo/Video: https://your-link
 
 - **Troubleshooting (요약)**
