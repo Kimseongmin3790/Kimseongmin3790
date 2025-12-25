@@ -2,8 +2,6 @@
 **Full-stack Developer** | 사용자 흐름 중심의 기능 구현 + DB 설계/연동 + 배포/운영까지 한 번에 만드는 걸 좋아합니다.
 
 - ✉️ Email: sungmin3790@gmail.com
-- 📝 Blog/Notion: https://your-link
-- 📄 Resume: https://your-link
 - 🌱 관심: 서비스 아키텍처 / 성능 개선 / 협업을 위한 문서화
 
 ---
@@ -61,8 +59,7 @@
 
 - **Links**
   - Repo: https://github.com/Kimseongmin3790/Team2_SpringProject.git
-  - Demo/Video: https://your-link
-  - PPT: https://your-link
+  - PPT: https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link
 
 - **Troubleshooting (요약)**
   - 이미지/옵션/카테고리 연동 시 FK/트랜잭션 정합성 이슈 → **삭제/수정 순서 정리 + 트랜잭션 처리**로 안정화
@@ -89,7 +86,6 @@
 
 - **Links**
   - Repo: https://github.com/Kimseongmin3790/React_Project
-  - Demo/Video: https://your-link
 
 - **Troubleshooting (요약)**
   - 게시글 삭제 시 태그(FK)로 삭제 실패 → **연관 테이블 선삭제(post_tags 등) + 트랜잭션 처리**로 해결
@@ -103,12 +99,5 @@
 
 ---
 
-## 📈 GitHub Stats (선택)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kimseongmin3790&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kimseongmin3790&layout=compact)
-
----
-
 ## 🤝 Contact
-- Email: your@email.com
-- Blog/Notion: https://your-link
+- Email: sungmin3790@gmail.com
