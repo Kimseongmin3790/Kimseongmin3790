@@ -1,18 +1,18 @@
 # 김성민 (Kimseongmin) 👋
 **Full-stack Developer**  
-사용자 흐름을 기준으로 기능을 설계하고, **DB 설계/연동 → API → 화면 구현**까지 End-to-End로 완성하는 것을 좋아합니다.
+사용자 흐름을 기준으로 기능을 설계하고, **DB 정합성 → API → UI 연동 → 운영 관점**까지 연결해 “돌아가는 서비스”로 완성하는 개발을 지향합니다.
 
 [![Email](https://img.shields.io/badge/Email-sungmin3790%40gmail.com-000?logo=gmail)](mailto:sungmin3790@gmail.com)
-[![AGRICOLA Repo](https://img.shields.io/badge/Repo-AGRICOLA-000?logo=github)](https://github.com/Kimseongmin3790/Team2_SpringProject.git)
-[![GClip Repo](https://img.shields.io/badge/Repo-GClip-000?logo=github)](https://github.com/Kimseongmin3790/React_Project)
-[![PPT](https://img.shields.io/badge/PPT-AGRICOLA-000?logo=googledrive)](https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link)
+[![GitHub](https://img.shields.io/badge/GitHub-Kimseongmin3790-000?logo=github)](https://github.com/Kimseongmin3790)
+[![AGRICOLA PPT](https://img.shields.io/badge/PPT-AGRICOLA-000?logo=googledrive)](https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link)
 
 ---
 
-## 🔥 Highlights
-- **공통 UI(header/footer) 모듈화**로 페이지 간 UI 일관성 확보 및 유지보수 비용 절감 (외부 CSS/JS 분리)
-- **DB 모델링(Oracle/MySQL) + API 설계 + 화면 연동**까지 End-to-End 구현 경험
-- 실서비스 핵심 기능 **인증(JWT), 실시간 채팅(Socket.io), 결제(PortOne), 이미지 업로드, 검색/필터링** 구현 경험
+## 🔥 Highlights (면접관 10초 스캔용)
+- **팀 5명 → 3명**으로 줄어든 상황에서 팀장으로 **우선순위 재정의 / 업무 재분배 / 일정 리스크 관리**로 프로젝트 완성
+- 사용자 여정(가입→탐색→주문/결제)이 끊기지 않게 **검증 흐름 + 예외 케이스 + 정합성**까지 포함해 설계/구현
+- 결제/주문/재고/상태 갱신을 **단일 트랜잭션으로 원자성 보장**, 신뢰 영역(결제)을 안정적으로 처리
+- 실시간 기능(socket.io) 구현 및 연결 이슈 해결로 **문제 진단–원인 분리–재발 방지** 경험
 
 ---
 
@@ -20,93 +20,69 @@
 **Backend**: Spring Boot · Spring MVC · MyBatis / Node.js(Express) · REST API · JWT  
 **Frontend**: React(Router/Context/MUI) · JSP · Vue3 · HTML/CSS/JS · AJAX  
 **Database**: Oracle · MySQL  
-**Tools & APIs**: AWS · Git/GitHub · Socket.io · PortOne · Kakao Maps API · RAWG Games API
+**Tools & APIs**: Git/GitHub · Socket.io · PortOne(Iamport) · Kakao Map · RAWG API  
+**Infra(개인 프로젝트)**: AWS · Nginx · PM2
 
 ---
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
+
+| Project | Period / Team | What I Built (핵심) | Links |
+|---|---|---|---|
+| **AGRICOLA** 농수산물 직거래 플랫폼 | 2025.10~2025.11 / 4명(중반 5→3, 팀장) | 판매자 온보딩(검증 흐름) · 내 주변 생산자(탐색 UX) · 결제/정합성 트랜잭션 · 관리자 운영 기능 | [Repo](https://github.com/Kimseongmin3790/Team2_SpringProject.git) · [PPT](https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link) |
+| **GClip** 게임 하이라이트 SNS | 2025.11~2025.12 / 개인 | 피드/검색/랭킹/탐색 흐름 · 실시간 채팅/알림(socket.io) · FK 이슈 해결(삭제/정합성) · RAWG API 연동 | [Repo](https://github.com/Kimseongmin3790/React_Project) |
 
 ---
 
-## 1) AGRICOLA (팀 프로젝트) — 농수산물 직거래 이커머스 플랫폼
-**기간**: 2025.10 ~ 2025.11 | **인원**: 4명  
-**Repo**: https://github.com/Kimseongmin3790/Team2_SpringProject.git  
-**PPT**: https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link
+# 🧩 Project Details (면접 질문 대비 요약)
 
-> ✅ 스크린샷(예시): 회원가입 / 관리자 화면
-![AGRICOLA 회원가입](./assets/agricola_signup.png)
-![AGRICOLA 관리자](./assets/agricola_admin.png)
+## 1) AGRICOLA — 농수산물 직거래 이커머스 (팀)
+**한 줄 요약**: “사용자 경험(탐색/가입) + 운영 검증(승인) + 신뢰(결제/재고 정합성)”을 갖춘 직거래 플랫폼
 
-### 🔎 한 줄 소개
-판매자/구매자/관리자 흐름을 갖춘 **직거래 커머스 플랫폼** (상품/옵션/이미지/카테고리/결제/관리자)
+### 내가 맡은 역할(구체)
+- **팀장/조율**
+  - 팀원 이탈(5→3) 상황에서 “완주 가능한 핵심 플로우”를 먼저 정의하고, 남은 인력 기준으로 업무 재분배/일정 재설계
+  - 원래 담당이 아니었던 **메인 페이지까지 추가 담당**하여 공백을 메우고 완성도 확보
+- **판매자 온보딩 플로우(실서비스형)**
+  - 사업자등록증 업로드 → 주소→좌표(LAT/LNG) 변환(Kakao Map) → SMS 인증 → 관리자 승인(VERIFIED)
+  - 기준: “사용자는 덜 번거롭게 / 운영자는 검증 가능하게”
+- **메인(내 주변 생산자 탐색 UX)**
+  - Vue3로 배너/목록 구성, 반경(1/3/5km) 필터 + 거리 계산 로직 구현
+  - 로딩/빈 결과/에러 케이스까지 고려해 탐색 흐름이 끊기지 않도록 처리
+- **결제/주문/재고 정합성**
+  - PortOne(Iamport) 연동 후 **imp_uid로 결제 정보 재검증**
+  - 주문 생성 → 결제 저장 → 옵션 재고 차감 → 상품 상태(SELLING/SOLDOUT) 갱신을 **단일 트랜잭션으로 처리**
 
-### 🙋 내가 맡은 핵심 기능 (구체)
-- **공통 UI 템플릿 구축**
-  - 모든 페이지에 공통 적용되는 `header.jsp / footer.jsp` 분리
-  - 외부 `header.css / footer.css`로 스타일 표준화, 네비게이션/아이콘/드롭다운 구조 정리
-- **카테고리 UI/동작 구성**
-  - 다단(3단) 카테고리 드롭다운 UI 구성 및 hover/레이어(z-index) 이슈 해결
-- **DB 연동 기반 CRUD 구현(프로젝트 내 담당 범위)**
-  - 화면 입력값 → 컨트롤러/서비스 → MyBatis → Oracle DB까지 연결되는 CRUD 플로우 구현
-- **외부 서비스 연동 경험**
-  - 결제(PortOne) 연동 플로우 이해 및 검증/처리 로직 구성(프로젝트 내 적용 범위)
-
-### ⭐ Key Features
-- 3단 카테고리 트리/드롭다운 UI, 검색/정렬
-- 상품 등록(옵션/이미지 다중 업로드), 썸네일/정렬 처리
-- 관리자 페이지(회원/상품/카테고리 관리)
-
-### 🧩 Troubleshooting (대표)
-- **드롭다운 레이어 겹침/hover 끊김 문제**
-  - 원인: 배너/컨텐츠 레이어가 메뉴 위로 올라와 hover 이벤트가 끊김
-  - 해결: z-index 우선순위 재정의 + hover 영역 구조 개선 → 메뉴 사용성 안정화
-- **연관 데이터(FK) 정합성 이슈**
-  - 해결 방향: 삭제/수정 시 “참조 관계 → 선행 삭제 순서”를 명확히 하고 트랜잭션으로 묶어 정합성 유지
+### 대표 Troubleshooting (STAR)
+- **S(상황)**: 결제 성공 후 중간 단계 실패 시 주문/재고/상태 데이터 불일치 위험  
+- **T(과제)**: “결제는 신뢰 영역”이라 실패 시에도 정합성 보장 필요  
+- **A(행동)**: 결제 재검증 + 주문~재고 갱신을 트랜잭션으로 묶어 원자성 확보  
+- **R(결과)**: 결제/주문 데이터 일관성을 유지하고, 장애 상황에서도 복구/추적이 쉬운 구조를 경험
 
 ---
 
-## 2) GClip (개인 프로젝트) — 게임 하이라이트 공유 SNS
-**기간**: 2025.11 ~ 2025.12  
-**Repo**: https://github.com/Kimseongmin3790/React_Project
+## 2) GClip — 게임 하이라이트 SNS (개인)
+**한 줄 요약**: “피드–검색–랭킹–탐색” 흐름과 실시간 상호작용(채팅/알림)을 갖춘 SNS
 
-> ✅ 스크린샷(예시): 메인 피드
-![GClip 메인 피드](./assets/gclip_feed.png)
+### 내가 맡은 역할(구체)
+- **프론트(React)**
+  - React Router/Context로 로그인/유저/알림 상태 관리
+  - MUI 기반 카드형 피드, 업로드 모달 등 탐색·업로드 UX 구성
+- **백엔드(Node/Express + MySQL)**
+  - 게시글/미디어/태그(post_tags)/팔로우/알림/채팅 테이블 설계 및 REST API 구현
+  - RAWG API 연동으로 게임 메타데이터를 검색/랭킹에 활용
+- **정합성 중심 삭제 로직**
+  - 게시글 삭제 시 FK로 인한 실패를 **연관 테이블 선삭제 + 트랜잭션/논리삭제 전략**으로 해결
+- **실시간(socket.io)**
+  - 실시간 채팅/알림 구현, connect_error 문제를 환경변수 분리(.env) + CORS/네트워크 점검으로 안정화
 
-### 🔎 한 줄 소개
-게임 스크린샷/하이라이트 업로드 + 피드/검색/랭킹 + 실시간 채팅을 갖춘 **게임 SNS**
-
-### 🙋 내가 맡은 핵심 기능 (구체)
-- **피드 중심 UI 구성(React + MUI)**
-  - 메인 피드 페이지 구성 및 공통 헤더 적용 구조 정리
-  - 게시글 작성/이미지 업로드 UI 개선(첨부 미리보기 등)
-- **검색/랭킹 데이터 연동**
-  - RAWG Games API 호출 파라미터 구성(페이지네이션/정렬/플랫폼 필터 등) 및 화면 출력
-  - 검색 결과 페이지 구성 및 라우팅 연계
-- **실시간 채팅(Socket.io) 연결 안정화**
-  - 소켓 connect_error 이슈 대응: 환경변수(.env) 기반 서버 주소 분리 및 네트워크/CORS 점검
-- **데이터 정합성 중심의 삭제 로직 설계**
-  - 게시글 삭제 시 FK로 인한 실패 이슈 해결:
-  - 연관 테이블(예: post_media, post_tags 등) **선삭제 + 트랜잭션 처리**로 안정적인 삭제 플로우 구성
-
-### ⭐ Key Features
-- 피드/게시글 작성(이미지 업로드), 통합 검색(유저/게임/태그)
-- 게임 랭킹/탐색(외부 데이터 RAWG API 활용)
-- 실시간 채팅(Socket.io), 프로필/마이페이지
-
-### 🧩 Troubleshooting (대표 2건)
-- **게시글 삭제 실패(FK)**
-  - 원인: 태그/미디어 등 연관 테이블 레코드가 남아 참조 무결성 위반
-  - 해결: `연관 테이블 선삭제 → posts 삭제` 순서 적용 + 트랜잭션으로 원자성 보장
-- **소켓 연결 오류(connect_error)**
-  - 해결: socket 서버 주소를 .env로 분리하고, 실행 환경별 설정/네트워크/CORS를 점검해 연결 안정화
+### 대표 Troubleshooting (STAR)
+- **S**: 게시글 삭제 시 태그/연관 데이터가 남아 FK 제약으로 실패  
+- **T**: 데이터 무결성을 유지하면서 “사용자 삭제 경험”을 자연스럽게 만들기  
+- **A**: 연관 테이블 선삭제 + 트랜잭션 적용(필요 시 논리삭제)로 규칙 정리  
+- **R**: 삭제 실패/데이터 꼬임을 방지하고, 정합성을 유지하는 설계 습관을 체득
 
 ---
 
 ## 📌 What I Value
-- 기능 구현뿐 아니라 **데이터 정합성 / 예외처리 / 유지보수성**을 같이 챙기는 개발
-- 협업을 위한 **문서화(README/기능 정리/ERD)** + 깔끔한 Git 기록(PR/커밋 단위) 지향
-
----
-
-## 🤝 Contact
-- Email: sungmin3790@gmail.com
+- 사용자가 **끝까지 완주하는 흐름(U**
