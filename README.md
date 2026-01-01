@@ -5,7 +5,15 @@
 [![Email](https://img.shields.io/badge/Email-sungmin3790%40gmail.com-000?logo=gmail)](mailto:sungmin3790@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Kimseongmin3790-000?logo=github)](https://github.com/Kimseongmin3790)
 [![AGRICOLA PPT](https://img.shields.io/badge/PPT-AGRICOLA-000?logo=googledrive)](https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link)
-
+<p align="center">
+  <a href="https://github.com/Kimseongmin3790/Team2_SpringProject">
+    <img src="./assets/logo.png" alt="AGRICOLA Logo" height="70" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Kimseongmin3790/React_Project">
+    <img src="./assets/GClipLogo.png" alt="GClip Logo" height="70" />
+  </a>
+</p>
 ---
 
 ## 🔥 Highlights
