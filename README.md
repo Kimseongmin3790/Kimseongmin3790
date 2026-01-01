@@ -33,7 +33,7 @@
 | **GClip** 게임 하이라이트 SNS | 2025.11~2025.12 / 개인 | 피드/검색/랭킹/탐색 흐름 · 실시간 채팅/알림(socket.io) · FK 이슈 해결(삭제/정합성) · RAWG API 연동 | [Repo](https://github.com/Kimseongmin3790/React_Project) |
 
 <p>
-  <img src="./assets/agricola_admin.png" width="460" />
+  <img src="./assets/agricola-admin.png" width="460" />
   <img src="./assets/page-main.png" width="460" />
 </p>
 
