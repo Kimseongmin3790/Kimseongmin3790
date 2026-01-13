@@ -16,7 +16,7 @@
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/Kimseongmin3790/oneul-eottae-portfolio">
-    <img src="./assets/oneul-eottae-logo.png" alt="오늘 어때 Logo" height="70" />
+    <img src="./assets/ic_launcher_foreground.png" alt="오늘 어때 Logo" height="70" />
   </a>
 </p>
 <p align="center"><b>Featured Projects</b> · AGRICOLA / GClip / 오늘 어때</p>
@@ -51,6 +51,7 @@
 <p>
   <img src="./assets/agricola-admin.png" width="460" />
   <img src="./assets/page-main.png" width="460" />
+  <img src="./assets/snow.gif" width="460" />
 </p>
 
 ---
