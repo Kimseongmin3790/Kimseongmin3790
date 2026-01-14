@@ -44,8 +44,8 @@
 
 | Project | Period / Team | What I Built (핵심) | Links |
 |---|---|---|---|
-| **AGRICOLA** 농수산물 직거래 플랫폼 | 2025.10.23 ~ 2025.11.10 / 3명(팀장) | 판매자 온보딩(검증 흐름) · 내 주변 생산자(탐색 UX) · 결제/정합성 트랜잭션 · 관리자 운영 기능 | [Repo](https://github.com/Kimseongmin3790/Team2_SpringProject.git) · [PPT](https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link) |
-| **GClip** 게임 하이라이트 SNS | 2025.11.25 ~ 2025.12.02 / 개인 | 피드/검색/랭킹/탐색 흐름 · 실시간 채팅/알림(socket.io) · FK 이슈 해결(삭제/정합성) · RAWG API 연동 | [Repo](https://github.com/Kimseongmin3790/React_Project) |
+| **AGRICOLA** 농수산물 직거래 플랫폼 | 2025.10.23~2025.11.10 / 3명(팀장) | 판매자 온보딩(검증 흐름) · 내 주변 생산자(탐색 UX) · 결제/정합성 트랜잭션 · 관리자 운영 기능 | [Repo](https://github.com/Kimseongmin3790/Team2_SpringProject.git) · [PPT](https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link) |
+| **GClip** 게임 하이라이트 SNS | 2025.11.25~2025.12.02 / 개인 | 피드/검색/랭킹/탐색 흐름 · 실시간 채팅/알림(socket.io) · FK 이슈 해결(삭제/정합성) · RAWG API 연동 | [Repo](https://github.com/Kimseongmin3790/React_Project) |
 | **오늘 어때** 날씨 기반 행동 추천 앱 | 2025.12.22~2026.01.08 / 5명 | **메인(Home) 담당**: 현재날씨 · 오늘 챙길 것 · 대기질 · 시간대별/주간 예보 · 즐겨찾기 루트(최소도보/시간/환승) · 내 주변 1km 사건/이슈 | [Repo](https://github.com/hyeokjun9035/flutterproject_team2.git) |
 
 ---
