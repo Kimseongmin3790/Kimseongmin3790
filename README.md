@@ -46,13 +46,7 @@
 |---|---|---|---|
 | **AGRICOLA** 농수산물 직거래 플랫폼 | 2025.10~2025.11 / 4명(중반 5→3, 팀장) | 판매자 온보딩(검증 흐름) · 내 주변 생산자(탐색 UX) · 결제/정합성 트랜잭션 · 관리자 운영 기능 | [Repo](https://github.com/Kimseongmin3790/Team2_SpringProject.git) · [PPT](https://drive.google.com/file/d/1uDGNjkepO-dKUQeIpOhPxPQ-29l4lkpr/view?usp=drive_link) |
 | **GClip** 게임 하이라이트 SNS | 2025.11~2025.12 / 개인 | 피드/검색/랭킹/탐색 흐름 · 실시간 채팅/알림(socket.io) · FK 이슈 해결(삭제/정합성) · RAWG API 연동 | [Repo](https://github.com/Kimseongmin3790/React_Project) |
-| **오늘 어때** 날씨 기반 행동 추천 앱 | 2025.12.22~2026.01.08 / 5명 | **메인(Home) 담당**: 현재날씨 · 오늘 챙길 것 · 대기질 · 시간대별/주간 예보 · 즐겨찾기 루트(최소도보/시간/환승) · 내 주변 1km 사건/이슈 | [Portfolio Repo](https://github.com/Kimseongmin3790/oneul-eottae-portfolio) · [Team Repo](https://github.com/hyeokjun9035/flutterproject_team2.git) |
-
-<p>
-  <img src="./assets/agricola-admin.png" width="460" />
-  <img src="./assets/page-main.png" width="460" />
-  <img src="./assets/snow.gif" width="460" />
-</p>
+| **오늘 어때** 날씨 기반 행동 추천 앱 | 2025.12.22~2026.01.08 / 5명 | **메인(Home) 담당**: 현재날씨 · 오늘 챙길 것 · 대기질 · 시간대별/주간 예보 · 즐겨찾기 루트(최소도보/시간/환승) · 내 주변 1km 사건/이슈 | [Team Repo](https://github.com/hyeokjun9035/flutterproject_team2.git) |
 
 ---
 
@@ -60,7 +54,7 @@
 
 ## 1) AGRICOLA — 농수산물 직거래 이커머스 (팀)
 **한 줄 요약**: “사용자 경험(탐색/가입) + 운영 검증(승인) + 신뢰(결제/재고 정합성)”을 갖춘 직거래 플랫폼
-
+<img src="./assets/agricola-admin.png" width="460" />
 ### 내가 맡은 역할(구체)
 - **팀장/조율**
   - 팀원 이탈(5→3) 상황에서 “완주 가능한 핵심 플로우”를 먼저 정의하고, 남은 인력 기준으로 업무 재분배/일정 재설계
@@ -83,7 +77,7 @@
 
 ## 2) GClip — 게임 하이라이트 SNS (개인)
 **한 줄 요약**: “피드–검색–랭킹–탐색” 흐름과 실시간 상호작용(채팅/알림)을 갖춘 SNS
-
+<img src="./assets/page-main.png" width="470" />
 ### 내가 맡은 역할(구체)
 - **프론트(React)**
   - React Router/Context로 로그인/유저/알림 상태 관리
@@ -106,7 +100,7 @@
 
 ## 3) 오늘 어때 — 날씨 기반 실시간 행동 추천 앱 (팀)
 **한 줄 요약**: “현재 날씨 → 오늘 필요한 행동 추천 → 이동/제보 등 실제 행동으로 연결”되는 위치 기반 대시보드 앱
-
+<img src="./assets/snow.gif" width="460" />
 ### 내가 맡은 역할(메인 페이지 Home)
 - **현재날씨 카드**: 현재/체감, 강수·풍속·습도, 일출/일몰, 최고·최저 표시 + 로딩/예외처리
 - **오늘 챙길 것**: 날씨 조건 기반 추천 + 사용자 On/Off(선호 저장 구조)
