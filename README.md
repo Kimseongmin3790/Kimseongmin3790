@@ -15,7 +15,7 @@
     <img src="./assets/GClipLogo.png" alt="GClip Logo" height="70" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Kimseongmin3790/oneul-eottae-portfolio">
+  <a href="https://github.com/hyeokjun9035/flutterproject_team2.git">
     <img src="./assets/ic_launcher_foreground.png" alt="오늘 어때 Logo" height="70" />
   </a>
 </p>
